@@ -13,9 +13,9 @@ composer require nasrulhazim/wassap
 ```php
 <?php 
 
-require `vendor/autoload.php`;
+require 'vendor/autoload.php';
 
-use Wassap/Wassap;
+use Wassap\Wassap;
 
 Wassap::send('your-phone-number', 'you-messages');
 
