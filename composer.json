@@ -1,0 +1,19 @@
+{
+    "name": "nasrulhazim/wassap",
+    "description": "Trigger which version Whatsapp to sent messages",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nasrul Hazim",
+            "email": "nasrulhazim.m@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wassap\\": "src/"
+        }
+    }
+}
